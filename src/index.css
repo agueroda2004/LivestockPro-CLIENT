@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-Comfortaa);
+}
+
+@theme {
+  --color-primary: #074714;
+  --color-hover-primary: #074714cc;
+  --color-text-primary: #474747;
+  --font-Comfortaa: "Comfortaa", sans-serif;
+}
