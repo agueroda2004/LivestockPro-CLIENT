@@ -1,4 +1,4 @@
-# Aguero-Livestock · Frontend Client
+# LivestockPro · Frontend Client
 
 Single-page application for the **LivestockPro** cattle-management platform. Built with React 19 + Vite + TypeScript, it consumes the [`server`](../server) REST API behind a Bearer-token auth layer and ships full **Dashboard**, **Fincas**, **Razas**, **Ganado** (with movements) and **Transacciones** modules. The UI leans on Chart.js for analytics, Zod for client-side validation and Zustand for the auth session.
 
