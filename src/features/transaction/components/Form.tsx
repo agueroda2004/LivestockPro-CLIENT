@@ -172,7 +172,7 @@ export default function Form({ onClose, editedTransaction }: FormProps) {
   };
 
   return (
-    <div className="relative bg-white w-full max-w-md rounded-lg shadow-lg flex flex-col">
+    <div className="relative bg-white w-full max-w-md rounded-lg shadow-lg flex flex-col max-h-[calc(100dvh-2rem)]">
       {/* Begin: Form Header */}
       <div className="p-6 border-b border-gray-200 flex justify-between items-center">
         <h2 className="text-lg font-semibold text-primary">
@@ -188,7 +188,7 @@ export default function Form({ onClose, editedTransaction }: FormProps) {
       {/* End: Form Header */}
 
       {/* Begin: Form Body */}
-      <form className="p-6 space-y-3">
+      <form className="p-6 space-y-3 overflow-y-auto flex-1 min-h-0">
         {/* Begin: Server Error */}
         {serverError && (
           <div className="bg-red-100 text-red-500 p-2 rounded-lg text-sm">

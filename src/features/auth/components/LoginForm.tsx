@@ -48,7 +48,7 @@ export default function LoginForm({ expired = false }: LoginFormProps) {
   }
 
   return (
-    <section className="w-full md:w-1/2 lg:w-2/5 xl:w-1/3 flex items-center justify-center p-8">
+    <section className="w-full md:w-1/2 lg:w-2/5 xl:w-1/3 flex items-center justify-center p-8 min-h-screen md:min-h-0">
       <div className="w-full max-w-110 flex flex-col items-center">
         <div className="flex flex-col items-center">
           <div className="w-20 h-20 rounded-lg bg-primary flex items-center justify-center">

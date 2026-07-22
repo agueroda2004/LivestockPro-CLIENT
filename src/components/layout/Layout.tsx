@@ -8,7 +8,7 @@ export default function Layout() {
       <Sidebar />
       <div className="flex-1 min-h-screen md:ml-64">
         <Header />
-        <div className="p-12 flex-1">
+        <div className="p-4 md:p-12 flex-1 max-w-full">
           <Outlet />
         </div>
       </div>
